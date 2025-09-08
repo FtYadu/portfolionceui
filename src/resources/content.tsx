@@ -3,9 +3,9 @@ import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
   firstName: "Yadu",
-  lastName: "Krishnan K S",
-  name: `Yadu Krishnan K S`,
-  role: "Multimedia Specialist & AI Enthusiast",
+  lastName: "Krishna",
+  name: `Yadu Krishna`,
+  role: "Multimedia Specialist & Content Creator",
   avatar: "/images/avatar.jpg",
   email: "ft.yaduwork@gmail.com",
   location: "Asia/Dubai", // Abu Dhabi, UAE
@@ -15,7 +15,7 @@ const person: Person = {
 const newsletter: Newsletter = {
   display: true,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>Weekly insights on multimedia production and AI automation</>,
+  description: <>Weekly insights on multimedia production, storytelling, and creative marketing</>,
 };
 
 const social: Social = [
@@ -42,9 +42,9 @@ const social: Social = [
     link: "https://vimeo.com/ftyadu",
   },
   {
-    name: "WhatsApp",
-    icon: "whatsapp",
-    link: "https://wa.me/971565820545",
+    name: "TikTok",
+    icon: "tiktok",
+    link: "https://tiktok.com/@ftyadu",
   },
   {
     name: "Email",
@@ -59,24 +59,24 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Crafting cinematic experiences with AI-powered creativity</>,
+  headline: <>Crafting narratives that resonate and ignite engagement</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">SFC Group Rebrand</strong>{" "}
+        <strong className="ml-4">GetGoated Branding</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
         </Text>
       </Row>
     ),
-    href: "/work/sfc-group-hospitality-rebrand",
+    href: "/work/getgoated-brand-storytelling",
   },
   subline: (
     <>
-      I'm Yadu, a multimedia specialist based in Abu Dhabi, where I create cinematic content for hospitality, automotive, and corporate brands. I combine traditional storytelling with cutting-edge AI tools to deliver exceptional visual experiences.
-      <br /> After hours, I experiment with AI automation and build creative workflows.
+      I'm Yadu, a multimedia specialist and startup owner based in Abu Dhabi, where I craft compelling narratives for businesses to thrive. Through digital landscapes, I build connections and ignite engagement with storytelling that transforms visions into compelling content.
+      <br /> My passion lies in elevating brands through strategic content production, marketing, and digital storytelling.
     </>
   ),
 };
@@ -95,14 +95,14 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://calendly.com/ftyadu",
+    link: "https://ftyadu.bio/contact",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Yadu is an Abu Dhabi-based multimedia specialist with over 6 years of experience creating cinematic content for hospitality, automotive, and corporate brands. He combines traditional storytelling techniques with cutting-edge AI tools to deliver exceptional visual experiences at unprecedented speed and quality.
+        Yadu Krishna is an Abu Dhabi-based multimedia specialist and startup owner with extensive experience in content production, marketing, and digital storytelling. As the founder of GetGoated, he specializes in transforming business visions into compelling narratives that drive engagement and growth across digital landscapes.
       </>
     ),
   },
@@ -111,40 +111,40 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Freelance Multimedia Specialist",
-        timeframe: "2018 - Present",
-        role: "Senior Multimedia Producer & AI Specialist",
+        company: "GetGoated (Founder & Creative Director)",
+        timeframe: "2020 - Present",
+        role: "Startup Owner & Creative Director",
         achievements: [
           <>
-            Delivered 500+ projects for hospitality, automotive, and corporate clients across UAE and internationally, maintaining 98% client satisfaction rate.
+            Founded and scaled GetGoated, a creative agency specializing in digital marketing, content production, and brand storytelling across UAE and international markets.
           </>,
           <>
-            Pioneered AI automation workflows that reduced post-production time by 60% while maintaining cinematic quality standards.
+            Developed comprehensive content strategies for 100+ clients in hospitality, automotive, and technology sectors, achieving 300% average engagement increase.
           </>,
           <>
-            Built custom AI agents for media organization, client communication, and workflow automation, handling 70% of routine operations automatically.
+            Built strategic partnerships with major brands and agencies, establishing GetGoated as a leading creative consultancy in the MENA region.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/sfc-group/cover-01.jpg",
-            alt: "SFC Group Hospitality Rebrand Project",
+            src: "https://lh3.googleusercontent.com/d/12f3g8Ra9ioHT9Grptg_LtwMC_K7D0vUc",
+            alt: "GetGoated Creative Direction Project",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Various Production Houses",
-        timeframe: "2016 - 2018",
-        role: "Video Editor & Motion Graphics Designer",
+        company: "Freelance Content Creator",
+        timeframe: "2018 - 2020",
+        role: "Multimedia Specialist & Digital Marketer",
         achievements: [
           <>
-            Mastered traditional video editing and motion graphics, working on documentaries, commercials, and branded content.
+            Created compelling visual narratives for diverse clients across UAE, specializing in digital marketing campaigns and content production.
           </>,
           <>
-            Developed expertise in color grading and cinematic storytelling techniques that became the foundation of my signature style.
+            Mastered storytelling techniques across video, photography, and digital platforms, establishing signature style focused on authentic brand connection.
           </>,
         ],
         images: [],
@@ -153,79 +153,79 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies & Certifications",
+    title: "Education & Expertise",
     institutions: [
       {
-        name: "Self-Directed Learning",
-        description: <>Specialized in multimedia production, cinematography, and AI automation through intensive hands-on practice and industry workshops.</>,
+        name: "Content Production & Digital Marketing",
+        description: <>Specialized in multimedia production, digital marketing strategies, and brand storytelling through hands-on experience and industry collaborations across UAE market.</>,
       },
       {
-        name: "AI & Automation Certifications",
-        description: <>Completed advanced courses in AI workflow automation, machine learning applications in media, and custom agent development.</>,
+        name: "Business Development & Entrepreneurship",
+        description: <>Developed expertise in startup operations, client relationship management, and strategic business development through founding and scaling GetGoated in competitive MENA market.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Technical Skills",
     skills: [
       {
-        title: "Video Production & Editing",
+        title: "Content Production & Digital Marketing",
         description: (
-          <>Mastery of Sony FX3/FX30 cameras paired with vintage cine lenses. Expert in DaVinci Resolve and Premiere Pro for cinematic post-production.</>
+          <>Expertise in multimedia content creation, digital marketing campaigns, and social media strategy. Proficient in photography, videography, and content optimization for maximum engagement.</>
         ),
         tags: [
           {
-            name: "Sony FX3",
+            name: "Content Creation",
             icon: "camera",
           },
           {
-            name: "DaVinci Resolve",
-            icon: "video",
+            name: "Digital Marketing",
+            icon: "marketing",
           },
           {
-            name: "Premiere Pro",
-            icon: "adobe",
+            name: "Social Media",
+            icon: "social",
           },
         ],
         images: [
           {
-            src: "/images/projects/automotive/cover-02.jpg",
-            alt: "Automotive cinematography project",
+            src: "https://lh3.googleusercontent.com/d/1Ry5eJf6QBIUac6Q0AzJvwtQmIJKfXCXN",
+            alt: "Content production project",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/hospitality/cover-03.jpg",
-            alt: "Hospitality video production",
+            src: "https://lh3.googleusercontent.com/d/16ZL63UuU4z4Dc1LEgrFNMdTgRteVSbbP",
+            alt: "Brand storytelling session",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        title: "AI Automation & Workflow Optimization",
+        title: "Brand Strategy & Storytelling",
         description: (
-          <>Building custom AI agents with GPT-4, Claude, and Stable Diffusion. Expertise in n8n for workflow automation and LangFlow for visual AI development.</>
+          <>Specialized in developing authentic brand narratives, strategic business communication, and creating compelling visual stories that drive engagement and business growth.</>
         ),
         tags: [
           {
-            name: "GPT-4",
-            icon: "openai",
+            name: "Brand Strategy",
+            icon: "strategy",
           },
           {
-            name: "n8n",
-            icon: "automation",
+            name: "Storytelling",
+            icon: "storytelling",
           },
           {
-            name: "Stable Diffusion",
-            icon: "ai",
+            name: "Business Development",
+            icon: "business",
           },
         ],
         images: [
           {
-            src: "/images/projects/ai-workflow/cover-04.jpg",
-            alt: "AI automation setup",
+            src: "https://lh3.googleusercontent.com/d/1T7YuukIG6iM--i9UHUHM7aQFQ2IMET6e",
+            alt: "Brand strategy consultation",
             width: 16,
             height: 9,
           },
@@ -238,8 +238,8 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Insights on multimedia production and AI automation...",
-  description: `Read what ${person.name} has been up to recently in AI automation and multimedia production`,
+  title: "Insights on content creation, digital marketing, and entrepreneurship...",
+  description: `Read what ${person.name} has been up to recently in content production, brand storytelling, and business development`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
@@ -248,7 +248,7 @@ const work: Work = {
   path: "/work",
   label: "Work",
   title: `Projects – ${person.name}`,
-  description: `Multimedia and AI automation projects by ${person.name}`,
+  description: `Content production, digital marketing, and brand storytelling projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/work/projects
   // All projects will be listed on the /home and /work routes
 };
@@ -257,48 +257,67 @@ const gallery: Gallery = {
   path: "/gallery",
   label: "Gallery",
   title: `Creative gallery – ${person.name}`,
-  description: `A curated collection of cinematography and multimedia work by ${person.name}`,
-  // Images from various projects
-  // These are placeholder images, will be replaced with your actual work
+  description: `A curated collection of content creation, photography, and multimedia work by ${person.name}`,
+  // Images from actual portfolio work
   images: [
     {
-      src: "/images/gallery/corporate-1.jpg",
-      alt: "Corporate video production",
+      src: "https://lh3.googleusercontent.com/d/12f3g8Ra9ioHT9Grptg_LtwMC_K7D0vUc",
+      alt: "Professional corporate content creation",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/hospitality-1.jpg",
-      alt: "Hospitality cinematography",
+      src: "https://lh3.googleusercontent.com/d/16ZL63UuU4z4Dc1LEgrFNMdTgRteVSbbP",
+      alt: "Lifestyle brand storytelling",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/automotive-1.jpg",
-      alt: "Automotive showcase",
+      src: "https://lh3.googleusercontent.com/d/1Ry5eJf6QBIUac6Q0AzJvwtQmIJKfXCXN",
+      alt: "Automotive lifestyle content",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/events-1.jpg",
-      alt: "Event coverage",
+      src: "https://lh3.googleusercontent.com/d/1T7YuukIG6iM--i9UHUHM7aQFQ2IMET6e",
+      alt: "Family and lifestyle photography",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/commercial-1.jpg",
-      alt: "Commercial production",
+      src: "https://lh3.googleusercontent.com/d/1uA86cfEDYa8cGe4ooKh0hfN9wrkfHPP1",
+      alt: "Adventure and travel content",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/corporate-2.jpg",
-      alt: "Corporate branding",
+      src: "https://lh3.googleusercontent.com/d/1bo21jpwj-4_u5rsBooxy0B9WE3UFCXDp",
+      alt: "Urban lifestyle photography",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/hospitality-2.jpg",
-      alt: "Luxury hospitality",
+      src: "https://lh3.googleusercontent.com/d/17fUwpVJTKzsPNSkld45Akr5CyWZfzy6G",
+      alt: "Nature and outdoor content",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/automotive-2.jpg",
-      alt: "Dynamic automotive",
+      src: "https://lh3.googleusercontent.com/d/1GTa_ycRbvs7jEPVPFJ4LtWZfqourn1wR",
+      alt: "Portrait and creative photography",
+      orientation: "vertical",
+    },
+    {
+      src: "https://lh3.googleusercontent.com/d/1v9LaIyONgjV_k2YWjpn6-J5YeLJrdhLh",
+      alt: "Cinematic sunset content",
+      orientation: "horizontal",
+    },
+    {
+      src: "https://lh3.googleusercontent.com/d/1BypiB5bLfrRwy0ApTxx3kU9g5ygu8R8Z",
+      alt: "Action and sports content",
+      orientation: "vertical",
+    },
+    {
+      src: "https://lh3.googleusercontent.com/d/1FuiW8qs1K60DN6AEd3OdZ7f5T65JH6aM",
+      alt: "Street and urban photography",
+      orientation: "horizontal",
+    },
+    {
+      src: "https://lh3.googleusercontent.com/d/1KO90KueDG_HQ1BjoFIWBXsgPrV_3Dv2t",
+      alt: "Architectural and space content",
       orientation: "vertical",
     },
   ],
